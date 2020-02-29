@@ -64,6 +64,7 @@ body {
 
 main {
     background-color: white;
+    padding-bottom: 2em;
 }
 
 .row main, .sidebar {
@@ -89,10 +90,6 @@ main {
     font-style: italic;
 }
 
-.content p:last-child {
-    padding-bottom: 2em;
-}
-
 footer {
     color: white;
 }
@@ -101,7 +98,7 @@ footer {
     font-size: 2rem;
 }
 
-.card-subtitle {
+.card-subtitle, .card-img-top {
     padding-bottom: 20px;
 }
 
