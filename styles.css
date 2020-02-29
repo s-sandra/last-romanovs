@@ -8,14 +8,12 @@ body {
 }
 
 @media screen and (max-width: 1500px) {
-
     body {
         line-height: 40px;
     }
 }
 
 @media screen and (max-width: 1300px) {
-
     body {
         font-size: 1.7rem;
         line-height: 35px;
@@ -40,18 +38,15 @@ body {
 .navbar , footer{
     background-color: #333333;
     margin: 0;
-    padding-left: 1em;
-}
-
-.navbar-brand {
-    font-size: 1em;
 }
 
 .navbar a, .nav a {
     color: white;
 }
 
-.navbar a:hover, .nav a:hover {
+.navbar a:hover, 
+.navbar a:active,
+.nav a:hover {
     color: black;
 }
 
