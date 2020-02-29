@@ -7,16 +7,14 @@ body {
     line-height: 40px;
 }
 
-@media screen and (max-width: 1500px) {
-    body {
-        line-height: 40px;
-    }
-}
-
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 1300px) {
     body {
         font-size: 1.7rem;
         line-height: 35px;
+    }
+
+    .content {
+        padding: 2em 10em 2em 3em;
     }
 }
 
@@ -35,9 +33,14 @@ body {
     margin-bottom: 20px;
 }
 
+.card h2 {
+    margin-bottom: 5px;
+} 
+
 .navbar , footer{
     background-color: #333333;
     margin: 0;
+    padding-left: 15px;
 }
 
 .navbar a, .nav a {
@@ -86,14 +89,26 @@ main {
     font-style: italic;
 }
 
-.content {
-    padding: 2em 10em 2em 3em;
-}
-
 .content p:last-child {
     padding-bottom: 2em;
 }
 
 footer {
     color: white;
+}
+
+.btn .fa-github {
+    font-size: 2rem;
+}
+
+.card-subtitle {
+    padding-bottom: 20px;
+}
+
+.badge {
+    font-size: 1.2rem;
+}
+
+blockquote {
+    font-family: "Lucida Console";
 }
