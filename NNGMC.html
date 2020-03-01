@@ -68,19 +68,132 @@
                 <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
                     <div class="jumbotron jumbotron-fluid">
                         <h1 class="display-4">NaNoGenMoCat</h1>
-                        <h3 class="text-muted">The NNGM Catalog</h3>
+                        <img src="http://nngm.botstudies.org/files/asset/43f3817b527937264c185917cafe891fb0b91212.png"
+                        alt="The NaNoGenMoCat logo">
                     </div>
                     <div class="content">
-                        <h1>Hello World</h1>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
-                            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta 
-                            sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
-                            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
-                            sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat 
-                            voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit 
-                            laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel
+                        <h1>About the Project</h1>
+                        <p>
+                            The National Novel Generation Month Catalog is a comprehensive online database of entry metadata and aggregate statistics 
+                            for NNGM entries, founded by UMW Digital Studies professor <a href="https://www.zachwhalen.net/" target="_blank">Zach Whalen</a>, 
+                            to increase the accessibility of NNGM works for creative coding and academic research. Encompassing over five hundred 
+                            novels across the event’s six year history, it includes such information as source material, vocabulary size and 
+                            utilized techniques, as well as describes each entry’s content, inspiration and context. As part of an undergraduate 
+                            research project conducted together with 
+                            <a href="https://rudenshiold.com/" target="_blank">Alex Rudenshiold</a> and 
+                            <a href="https://cmontemo.com/" target="_blank">Cristina Montemorano</a>, 
+                            I edited and contributed to this database by documenting over 200 novels. We will present our 
+                            findings on the larger themes and trends within NNGM entry genres and text generation methods at the 
+                            <a href="http://vahumanitiesconference.org/" target="_blank">Virginia Humanities Conference</a> on March 28.
                         </p>
+
+                        <div class="alert alert-warning">
+                            <p>
+                                NaNoGenMoCat can be accessed through this website's catalog navigation tab or by visiting 
+                                <a class="nav-link" href="http://nngm.botstudies.org/" target="_blank">nngm.botstudies.org</a>. 
+                                Note, however, that NNGMC is a work-in-progress. Entry descriptions have not yet been added and some features, 
+                                such as timeline and search by author, may not be functional.
+                            </p>
+                        </div>
+
+                        <h1>Documentation Process</h1>
+                        <p>
+                            My work for NaNoGenMoCat consisted of writing descriptions for the database, as well as reviewing and correcting 
+                            errors in existing entry metadata. This entailed reading each entry’s issue comments, repository readmes, code 
+                            and novel output on GitHub. Descriptions consisted of the novel’s name and output explanation, as well as any 
+                            inspiration or context explained by the programmer. In addition to descriptions, I also identified the genre and 
+                            text generation method of each entry, as well as any existing source text used to create the novel.
+                        </p>
+                        <p>
+                            During the project, I cataloged and reviewed over 215 completed entries from 2017 and 2018, as well as part of 2016 and 2019.
+                            This involved collecting additional metadata about the entry’s issue URL, programming language, author, completion date and 
+                            license. I also identified broken or incorrect URL links, missing programming languages and licenses and inaccurate completion 
+                            dates among 2017 and 2018 entries.
+                        </p>
+
+                        <h1>Database Overview</h1>
+                        <p>
+                            As of February 2020, NaNoGenMoCat encompasses 532 entries completed between 2013 and 2019. Out of a total of 45 different languages and
+                            platforms, 300 novels were created using Python, followed by 101 JavaScript projects and 31 Ruby programs. Entrants employ a diverse range of 
+                            text generation methods and outputs, which include the following. This website will highlight some of my favorite entries in 
+                            the word art, visual art, simulation and prose categories.
+                        </p>
+
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" colspan=6>Genres</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Prose</td>
+                                        <td>Poetry</td>
+                                        <td>Children’s book</li>
+                                        <td>Audiobook</td>
+                                        <td>Catalog</td>
+                                        <td>Interactive fiction</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dialogue</td>
+                                        <td>Play</td>
+                                        <td>Word art</td>
+                                        <td>Visual art</td>
+                                        <td>Lexicon</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" colspan=4>Text Generation Methods</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Machine learning (LSTM, RNN, GPT-2)</td>
+                                        <td>Machine translation</td>
+                                        <td>Optical character recognition</td>
+                                        <td>Natural language processing (NLP)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Word substitution</td>
+                                        <td>Letter elimination</td>
+                                        <td>Word elimination
+                                        <td>Visual generation</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Image processing</td>
+                                        <td>Statistical modeling</td>
+                                        <td>Reproduction</td>
+                                        <td>Data collection</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Markov chains</td>
+                                        <td>Templates and Grammars</td>
+                                        <td>Simulation</td>
+                                        <td>Cut-up</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Remixing</td>
+                                        <td>Randomization</td>
+                                        <td>Verbose program output</td>
+                                        <td>Ring composition</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Physically based rendering</td>
+                                        <td>Data bending</td>
+                                        <td>Automata</td>
+                                        <td>Procedural generation</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </main>
             </div>

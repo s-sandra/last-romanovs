@@ -39,6 +39,7 @@ body {
 
 .h1, .h2, .h3, h1, h2, h3 {
     margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .card h2 {
@@ -72,6 +73,7 @@ body {
 
 main {
     background-color: white;
+    padding-bottom: 2em;
 }
 
 .row main, .sidebar {
@@ -99,6 +101,7 @@ main {
 
 footer {
     color: white;
+    padding: 10px;
 }
 
 .btn .fa-github {
@@ -113,9 +116,14 @@ footer {
     padding-bottom: 20px;
 }
 
-img {
+img, video {
     height: auto;
     max-width: 100%;
+    padding-bottom: 1em;
+}
+
+video {
+    min-width: 60%;
 }
 
 .card {
@@ -128,4 +136,12 @@ img {
 
 blockquote {
     font-family: "Lucida Console";
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+.alert {
+    margin-bottom: 40px;
 }
