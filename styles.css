@@ -104,6 +104,10 @@ footer {
     padding: 10px;
 }
 
+.blockquote-footer{
+    background-color: initial;
+}
+
 .btn .fa-github {
     font-size: 2rem;
 }
@@ -126,6 +130,10 @@ video {
     min-width: 60%;
 }
 
+figure {
+    margin-bottom: 40px;
+}
+
 .card {
     margin-bottom: 5em;
 }
@@ -134,7 +142,7 @@ video {
     font-size: 1.2rem;
 }
 
-blockquote {
+.card blockquote {
     font-family: "Lucida Console";
 }
 
