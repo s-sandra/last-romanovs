@@ -4,28 +4,36 @@ body, html {
 
 body {
     font-size: 2rem;
-    line-height: 40px;
+    line-height: 35px;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1201px) {
     body {
         font-size: 1.7rem;
-        line-height: 35px;
+        line-height: 30px;
     }
 
     .content {
         padding: 2em 10em 2em 3em;
     }
+
+    .card {
+        width: 50%;
+    }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1200px) {
     .content {
         padding: 2em;
     }
 
+    .card {
+        width: 100%;
+    }
+
     body {
         font-size: 1.5rem;
-        line-height: 30px;
+        line-height: 25px;
     }
 }
 
@@ -64,7 +72,6 @@ body {
 
 main {
     background-color: white;
-    padding-bottom: 2em;
 }
 
 .row main, .sidebar {
@@ -98,8 +105,21 @@ footer {
     font-size: 2rem;
 }
 
-.card-subtitle, .card-img-top {
+.card-text {
+    padding-top: 20px;
+}
+
+.card-subtitle {
     padding-bottom: 20px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.card {
+    margin-bottom: 5em;
 }
 
 .badge {
