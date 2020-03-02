@@ -66,9 +66,11 @@
                 </nav>
       
                 <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-                    <div class="jumbotron jumbotron-fluid">
-                        <h1 class="display-4">Prose</h1>
-                        <h3 class="text-muted">NNGM Entries</h3>
+                    <div class="jumbotron jumbotron-fluid" id="prose">
+                        <div class="hero-text">
+                            <h1 class="display-4">Prose</h1>
+                            <h3 class="text-muted">NNGM Entries</h3>
+                        </div>
                     </div>
 
                     <div class="content">
@@ -102,10 +104,11 @@
                                         DOCTOR: Ahha, yes, the answer is that they're part of the immune system.<br>
                                     </p>
                                 </blockquote>
-                                <p class="card-text">"Doctor Doctor" is a humorous dialogue of a hypochondriac asking medical questions to 
-                                  their therapist. Written in JavaScript, conversations are generated using templates and a scraped 
-                                  <a href="https://ciir.cs.umass.edu/downloads/nfL6/" target="_blank">Yahoo! Webscope L6 
-                                  answers dataset</a>.
+                                <p class="card-text">
+                                    “Doctor Doctor” is a humorous dialogue of a hypochondriac asking medical questions to 
+                                    their therapist. Written in JavaScript, conversations are generated using templates and a scraped 
+                                    <a href="https://ciir.cs.umass.edu/downloads/nfL6/" target="_blank">Yahoo! Webscope L6 
+                                    answers dataset</a>.
                                 </p>
                             </div>
                         </div>
@@ -151,11 +154,45 @@
                                     </p>
                                 </blockquote>
                                 <audio controls src="https://hugovk.github.io/xdaysofxmas/audiobook/verse-018.mp3" type="audio/mpeg"></audio>
-                                <p class="card-text">"One Hundred And Sixty-Five Days of Christmas" is a ten-hour long songbook that expands the "Twelve Days
+                                <p class="card-text">
+                                    “One Hundred And Sixty-Five Days of Christmas” is a ten-hour long songbook that expands the "Twelve Days
                                     of Christmas" using Python templates filled in with random words from the Wordnik API. Each verse is sung by a 
                                     different robotic voice.
                                 </p>
                                 <a role="button" class="btn btn-primary" href="https://hugovk.github.io/xdaysofxmas/output/xdaysofxmas.html" target="_blank">Demo</a>
+                            </div>
+                        </div>
+
+                        <div class="card" id="trump">
+                            <div class="card-body">
+                                <h2 class="card-title">Hey Everyone, It’s Donald Trumpov!</h2>
+                                <div class="card-subtitle">
+                                    <a href="https://github.com/MichaelMartinez/Trumpov" class="badge badge-primary" target="_blank"><i class="fa fa-github">
+                                        </i> Source Code
+                                    </a>
+                                    <a href="https://github.com/MichaelMartinez" class="badge badge-dark" target="_blank"><i class="fa fa-user" aria-hidden="true">
+                                        </i> Michael Martinez
+                                    </a>
+                                    <a href="https://github.com/NaNoGenMo/2017" class="badge badge-dark" target="_blank">
+                                        2017
+                                    </a>
+                                    <a href="https://github.com/NaNoGenMo/2017/issues/103" class="badge badge-dark" target="_blank">
+                                        # 103
+                                    </a>
+                                </div>
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">
+                                        As President, I have one obligation, and that obligation is to serve, protect, and defend the citizens of 
+                                        the United Nations depends upon the independent strength of its members.” It’s amazing how many Boy Scouts we 
+                                        have at the highest rates anywhere in the world. And I go in, but I’m in the real estate business, and I 
+                                        see the swamp, and it’s not a good place.
+                                    </p>
+                                </blockquote>
+                                <p class="card-text">
+                                    Described as “terrifying readable” and “more intelligible than the real thing,” 
+                                    “Hey Everyone, It’s Donald Trumpov!” feeds transcripts of Donald Trump speeches into a Markov 
+                                    chain to output new speeches.
+                                </p>
                             </div>
                         </div>
 
