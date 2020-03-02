@@ -197,6 +197,10 @@ img, video {
     padding-bottom: 1em;
 }
 
+audio {
+    max-width: 100%;
+}
+
 video {
     min-width: 60%;
 }
